@@ -1,8 +1,14 @@
 <?php
 /*
    Plugin Name: Typewriter Parsedown
+   Plugin URI: https://github.com/pablinos/typewriter-parsedown
    Description: Swap out PHP Markdown for Parsedown in the Typewriter plugin
- */
+   Version: 1.0
+   Author: Paul Bunkham
+   Author URI: https://bunkham.com
+   License: GPL2
+*/
+
 require_once 'GeshiParsedown.php';
 
 function remove_do_markdown(){
